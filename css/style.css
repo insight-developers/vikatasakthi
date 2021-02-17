@@ -1,0 +1,382 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+header, .navbar-inverse{
+	background: blue;
+}
+.navbar-inverse{
+	border: none;
+  text-align: center;
+}
+.iti-nav{
+	display: inline-flex;
+	min-width: 100%;
+	padding:01% 2% 0;
+}
+
+.iti-nav img{
+    box-shadow: -9px 3px 20px black;
+    vertical-align: middle;
+}
+
+.iti-nav .logo2{
+	float: right;
+}
+.iti-nav h1{
+    font-weight: bold;
+    color: #fdfdfd;
+    text-shadow: 11px 12px 20px black;
+    text-align: center;
+}
+.nav-link{
+	color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 15px!important;
+    font-weight: normal;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+/*nav ul li a:hover {
+  color: #fff;
+}*/
+.navbar-nav .active a{
+  color: #fff!important;
+  font-weight: bold;
+}
+.navbar-nav a{
+  color: #fff!important;
+}
+
+#hero{
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  background-color: #E97452;
+  background-position: center;
+}
+.hero1{
+  background-image: url("../images/banner/banner.jpg");
+}
+.hero2{
+  background-image: url("../images/banner/banner1.jpg");
+}
+.hero3{
+  background-image: url("../images/banner/banner2.jpg");
+}
+.hero-content{
+  text-align: center;
+  padding: 15% 0 20%;
+  color: #fff;
+}
+.hero-content h1{
+  padding-bottom: 2%;
+}
+.hero-content h1 span, .hero-content h4 span{
+  display: block;
+}
+
+.hero-content h4{
+  padding-bottom: 1%;
+  font-size: 36px;
+}
+
+.hero-content button{
+  border-radius: 20px;
+  padding:1% 3%;
+  border:2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+.hero-content button:hover{
+  background-color: #fff;
+  color: #000;
+}
+.carousel-indicators li{
+  width:13px;
+  height: 13px;
+  border-radius: 50%;
+  border:none;
+}
+.intro, .courses_offered, .principal_message, .gallery, .about-us-intro, .full-courses, .our-staffs {
+  padding:3% 0;
+}
+
+.intro h2, .courses_offered h2, .principal_message h2, .about-us-intro h2, .full-courses h2, .gallery h2, .our-staffs h2, .section-gallery h2{
+    color: #E91E63;
+    text-align: center;
+    padding:0 0 3%;
+    font-weight: bold;
+}
+.intro div p{
+  text-align: justify;
+}
+.courses_offered{
+  background: rgb(249, 245, 239);
+}
+.courses_offered ul {
+  list-style: none;
+}
+.courses_offered ul li{
+  padding-bottom: 2%;
+}
+.courses_offered ul li:before {
+  content: '✓';
+  /*background-color: #E91E63;*/
+  color: #E91E63;
+  border-radius: 50%;
+  /*width: 40px;*/
+  padding:3px;
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.principal_message{
+  background: rgba(139, 195, 74, 0.23);
+}
+.p_message{
+  text-align: justify;
+}
+.p_message h5{
+  color: #009688;
+}
+.principal_message h6{
+  float: right;
+  color: #F44336;
+  font-weight: bold;
+}
+.principal_message p{
+  font-size: 14px;
+}
+.gallery img{
+  margin-bottom: 4%;
+}
+.gallery img:hover, .principal_message img:hover{
+  transform: scale(1.01);
+  cursor: pointer;
+}
+.footer{
+  background: #212121;
+  color: white;
+  padding:4% 0;
+}
+.footer h2{
+  padding-bottom: 5%;
+  color: #E91E63;
+  font-weight: bold;
+}
+
+.footer p{
+  font-size: 14px;
+}
+
+.footer p i{
+  padding-right: 5px;
+}
+
+.footer p a{
+  color: white;
+}
+
+.footer .ql{
+  list-style-type: none;
+  padding:0;
+}
+
+.footer .ql li a{
+  color: white;
+}
+
+.footer_gallery img{
+  width:100px;
+  height: 100px;
+  margin-bottom: 12%;
+}
+
+.social_share{
+  padding: 2em 0;
+    background: #E91E63;
+}
+.social_share a{
+  color: black;
+}
+.social_share i{
+  margin-right: 10px;
+  background-color: yellow;
+  padding:11px;
+  border-radius: 50%;
+  /*color: white;*/
+  width: 40px;
+  margin-bottom: 1%;
+}
+.social_share i:hover{
+  /*background-color: transparent;*/
+  color: blue;
+}
+
+
+/*ABOUT US*/
+.breadcrump{
+  background-image: url('https://skilltraining.tn.gov.in/itithiruvannamalai/images/ba1.jpg');
+  padding:5% 0;
+}
+.breadcrump h2{
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+}
+.breadcrump h2 span{
+  color: #f58025;
+}
+.about-us-intro img{
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+}
+.mission_vission{
+  padding: 5em 0;
+    background: rgb(249, 245, 239);
+}
+
+.mission_vission h3{
+  padding-bottom: 2%;
+  font-weight: bold;
+  color: #E91E63;
+}
+.mission_vission img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 4%;
+}
+
+.course-card{
+  border: 1px solid beige;
+  background-color: #009688;
+  padding: 6% 3% 2%;
+  min-height: 337px;
+  border-radius: 4px;
+}
+
+.course-card:hover .course-card h3 { 
+  border-bottom: 2px solid white;
+}
+.course-card:hover {
+  box-shadow: 5px 10px 18px #888888;
+  transform: scale(1.01);
+}
+.full-courses h3{
+  /*color: #f58025;*/
+  color: #fff;
+  padding:2% 0 3%;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.full-courses img{
+  padding-bottom: 4%;
+}
+
+.full-courses h4{
+  /*color: #E91E63;*/
+  color: #f58025;
+  font-weight: bold;
+}
+.full-courses img{
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.course-card li{
+  color: #fff;
+}
+.placements p{
+  text-align: center;
+}
+.placements img{
+  display: block;margin: auto;
+}
+#contact-us label{
+  color: #f58025;
+}
+.contactus .fas{
+  padding-right: 5px;
+}
+.contactus a{
+  color: #000;
+}
+.gallery img{
+  width: 100%;
+  height: 250px;
+}
+#faq .card {
+  margin-bottom: 30px;
+  border: 0;
+}
+
+#faq .card .card-header {
+  border: 0;
+  -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+          box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+  border-radius: 2px;
+  padding: 0;
+}
+
+#faq .card .card-header .btn-header-link {
+  color: #E91E63;
+  display: block;
+  text-align: left;
+  background: #FFE472;
+    font-weight: bold;
+  padding: 20px;
+  border-bottom: 2px solid #fff;
+}
+
+#faq .card .card-header .btn-header-link:after {
+  content: "\f107";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  float: right;
+}
+
+#faq .card .card-header .btn-header-link.collapsed {
+  background: #A541BB;
+  color: #fff;
+}
+
+#faq .card .card-header .btn-header-link.collapsed:after {
+  content: "\f106";
+}
+
+#faq .card .collapsing {
+  background: #FFE472;
+  line-height: 30px;
+}
+
+#faq .card .collapse {
+  border: 0;
+}
+
+#faq .card .collapse.show {
+  background: #FFE472;
+  line-height: 30px;
+  color: #222;
+}
+.youtube_videos{
+  margin-bottom: 3%;
+}
+
+.sec-gallery img{
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 5%;
+}
+.our-events img{
+  object-fit: cover;
+}

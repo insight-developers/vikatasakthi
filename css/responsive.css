@@ -1,0 +1,88 @@
+@media only screen and (min-width: 800px) {
+  	.iti-nav h1{
+	  font-size: 44px;
+	}
+	.principal_message img{
+		width: 100%;
+	}
+	.intro h2, .courses_offered h2, .principal_message h2, .about-us-intro h2, .full-courses h2, .gallery h2{
+    	font-size: 3.5em;
+	}
+	.iti-nav img{
+		height: 119px;
+	    width: 115px;
+	}
+	.shift .logo1, .shift .logo2{
+		display: none;
+	}
+	.navbar-nav a {
+	  position: relative;
+	}
+
+	.navbar-nav a:after {    
+	  background: none repeat scroll 0 0 transparent;
+	  bottom: 0;
+	  content: "";
+	  display: block;
+	  height: 2px;
+	  /*left: 50%;*/
+	  position: absolute;
+	  background: #fff;
+	  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	  width: 0;
+	}
+	.navbar-nav a:hover:after { 
+	  width: calc(100% - 32px);
+	  left: 16px; 
+	}
+
+}
+@media only screen and (max-width: 800px) {
+	.navbar-dark .navbar-toggler{
+		margin-left: auto;
+	}
+	.iti-nav img{
+		display: none;
+	}
+	.shift .logo1, .shift .logo2{
+		width:50px;
+		height: 50px;
+		margin-right: 5px;
+	}
+	.navbar-nav{
+		margin-top: 18px;
+	}
+	img, .sec-gallery img{
+		width: 100%;
+	}
+	.nav-item{
+		margin-bottom: 3%;
+	}
+  	.iti-nav h1{
+	  font-size: 20px;
+	}
+	.principal_message img{
+		width: 100%;
+	}
+	.iti-nav img{
+		height: 75px;
+	    width: 75px;
+	}
+	.mission_vission img{
+		height: auto!important;
+	}
+	.about-us-intro img{
+		width:100%;
+	}
+	.footer_gallery iframe, .youtube_videos iframe{ 
+		width: 100%;
+	}
+	.course-card{
+		margin-bottom: 3%;
+	}
+	.imageSlides{
+		object-fit: cover;
+	}
+
+}
+	
