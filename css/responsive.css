@@ -38,6 +38,7 @@
 	.gallery img{
 		height: 400px;
 		border: 8px solid #ff8c00;
+		object-fit: cover;
 	}
 
 }
